@@ -108,7 +108,7 @@
                 // Send a POST request
                 axios({
                     method: 'post',
-                    url: '/user/login/'+this.loginInfo.verifyCode+'/'+this.loginInfo.captcha_key,
+                    url: '/user/login/'+this.loginInfo.verifyCode,
                     data: this.sobUser
                 }).then(result=>{
                    console.log(result)
@@ -144,9 +144,7 @@
 </script>
 
 <style>
-    .captcha_code_input_box{
-
-    }
+   
     .captcha_code{
         margin-left: 10px;
         vertical-align: middle;

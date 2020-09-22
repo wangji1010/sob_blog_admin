@@ -72,7 +72,7 @@ height: 150px;
  line-height: 150;
 text-align: center;
 background: #fff;
- box-shadow: darkgrey 0px 0px 20px 5px;
+ box-shadow: darkgrey 0 0 20px 5px;
 }
 .dashboard-bottom{
   height: 500px;
@@ -98,7 +98,6 @@ background: #fff;
   text-align: left;
   font-size: 18px;
   font-weight: 600;
-  columns: #000;
 }
 
 .seo-item{
@@ -110,7 +109,7 @@ height: 150px;
  line-height: 150;
 text-align: center;
 background: #fff;
- box-shadow: darkgrey 0px 0px 20px 5px;
+ box-shadow: darkgrey 0 0 20px 5px;
 }
 
 

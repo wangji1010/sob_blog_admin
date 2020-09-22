@@ -33,7 +33,7 @@
     }
 </script>
 
-<style lang="css" rel="stylesheet/stylus">
+<style>
     .main-container{
         position: absolute;
         width: 100%;

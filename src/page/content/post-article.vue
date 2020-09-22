@@ -16,7 +16,7 @@
     <div class="article-post-settings-part">
       <el-form label-width="100px" class="demo-ruleForm">
         <el-form-item label="文章分类">
-          <el-select v-model="article.categoryId" placeholder="请选择活动区域">
+          <el-select v-model="article.categoryId" placeholder="请选择分类">
             <el-option
                 v-for="item in categoryies"
                 :label="item.cName"
